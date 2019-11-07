@@ -1,0 +1,50 @@
+.logo{	
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+	padding-left: 120px;
+	padding-top: 10px;
+	width: 100px;
+	height: auto;
+}
+
+nav{
+	font-family: 'Italianno', cursive;
+	display: inline-block;
+	list-style: none;	
+	color:white;
+    font-weight: bold;
+}
+
+nav ul{	
+    list-style-type:none;
+    overflow:hidden;
+    float: right;
+	line-height: 35px;
+    padding: 35px;
+    margin-left: 380px;
+}
+nav li {
+    float:left;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+	padding: 5px 15px;
+	margin: 5px;
+    display:inline-block;
+    color:#fff;
+    font-weight:bold;
+    font-family: 'Italianno', cursive;
+}
+nav ul li a:hover{
+    background-color: #D24245;	
+}
+nav ul li.active a{	
+	background-color: rgb(255, 0, 30);	
+}	
+nav ul li.active a:hover{			
+	background-color: #D24245;
+}

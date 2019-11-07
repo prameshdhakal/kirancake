@@ -1,0 +1,118 @@
+*{
+	margin:0;
+	padding:0;
+}
+.clear{
+    clear:both;
+}
+#container{
+	min-height: 100%;
+}
+
+#main{
+	overflow: auto;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	background: linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5)),url('../image/banner.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.info{
+	font-size: 30px;
+	font-family: 'Italianno', cursive;
+	width: 100%;
+	margin-top: 160px;
+	text-align: center;
+	color:white;
+}
+ 
+#products,#visit-us{
+	width: 100%;
+	font-size: 24px;
+	font-family: 'Italianno', cursive;
+	text-align: center;
+	padding-top: 40px;
+	background-color: #EAE9E9;
+}
+#products h4,#visit-us h4{
+	color: black;
+}
+#products h2 span,#visit-us h2 span{
+	color: #D62A2A;	
+	border-bottom:5px solid #E8A0A1;
+}
+.p1{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../image/cakes.jpg');			
+}
+.p2{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../image/cup-cakes.jpg');
+}
+.p3{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../image/ice-creams.jpg');
+}
+
+.v2{
+	background-color: white;
+	text-align: left;
+	padding: 40px 30px;
+}
+
+#visit-us,#services .learn:hover{
+	background-color: #EAE9E9;
+}
+#services{
+	width: 100%;
+	font-size: 24px;
+	font-family: 'Italianno', cursive;
+	position: relative;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../image/service-back.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	text-align: center;	
+	padding-top: 40px;
+}
+#products h3{
+	padding: 80px;
+	color: white;
+}
+#services h3,h4{
+	color: white;
+	
+}
+#services h2 span{
+	color: white;
+	border-bottom:5px solid #3E3123;
+}
+#services img{
+	margin: 20px;
+	width: 80px;
+	height: 80px;	
+}
+
+#follow{
+	background-color: #E53135;
+	bottom: -60;
+	width: 100%;
+	color: white;
+	font-family:  'Italianno', cursive;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0;
+	overflow: none;
+}
+
+.footer{
+	background-color: #CE2C30;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	font-family:  'Italianno', cursive;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0;
+	overflow: none;
+}

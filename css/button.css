@@ -1,0 +1,76 @@
+#products button,#services button{
+	padding: 10px;
+	margin-bottom: 100px;
+}
+button.call:hover,button.learn:hover{
+    background-color: #D31518;
+}
+
+button.call{	
+	background-color: #D62A2A;
+	font-size: 24px;
+	color: #FAEAEA;
+	padding: 10px 15px;
+	font-family: 'Italianno', cursive;
+	position: relative;
+	animation-name: shake;
+	border: none;
+	animation-duration: 1.1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+	cursor: pointer;
+	border-radius: 10px;
+  }
+
+button.learn{
+	background-color: #D62A2A;
+	font-size: 24px;
+	color: #FAEAEA;
+	position: relative;
+	padding: 5px 10px;
+	margin-top: 5px;
+	font-family: 'Italianno', cursive;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+#services .learn{
+	background-color: white;
+	color: black;
+	margin-top: 20px;
+}
+
+  @keyframes shakeAnim {
+	0% {left: 0}
+	1% {left: -3px}
+	2% {left: 5px}
+	3% {left: -8px}
+	4% {left: 8px}
+	5% {left: -5px}
+	6% {left: 3px}
+	7% {left: 0}
+  }
+  
+  @keyframes shake {
+	0% {left: 0}
+	1% {left: -3px}
+	2% {left: 5px}
+	3% {left: -8px}
+	4% {left: 8px}
+	5% {left: -5px}
+	6% {left: 3px}
+	7% {left: 0}
+  }
+ 
+  #visit-us i{
+	  color: #E73735;	
+	  padding: 10px;
+  }
+  i{
+	  color: white;	 
+  }
+  #follow i{
+	padding: 10px 10px;
+	font-size: 1.5em;
+  }

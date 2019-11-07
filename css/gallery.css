@@ -1,0 +1,42 @@
+#gallery{        
+    margin-left:150px;
+    margin-right: 150px;
+    margin-top: 10px;
+	padding-top:20px;
+	position: relative;	
+}
+
+#gallery .p1,.p2,.p3,.s1,.s2,.s3,.s4{
+	box-sizing: border-box;
+    border-radius: 5%;
+	position: relative;
+	height: 200px;
+	color: white;
+}
+
+#products .column{
+	float: left;
+	width: 30.4%;	
+	padding: 15px;	
+}
+
+#services .column{
+	float: left;
+	width: 17.9%;
+	padding: 15px;
+	margin-left: 40px;
+	border: white 2px solid;	
+}
+
+#visit-us .column{
+	float: left;
+	width: 47.1%;	
+	padding: 15px;
+}
+
+/* Clearfix (clear floats) */
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
